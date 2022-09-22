@@ -7,7 +7,7 @@ Md. Mahbubul Haque
 
 #### Supervisor
 Md. Iftekharul Islam Sakib\
-Assitant Professor\
+Assistant Professor\
 Department of Computer Science and Engineering (CSE)\
 Bangladesh University of Engineering and Technology(BUET)\
 [(http://miisakib.com/)]
