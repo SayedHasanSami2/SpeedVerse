@@ -1,0 +1,4 @@
+* Run the FirstWindow
+* Create game, and wait for the opponent to join.
+* Join game by providing server IP address
+* In case played in the same laptop IP address is not required.
