@@ -14,9 +14,9 @@ Department of Computer Science and Engineering (CSE)\
 Bangladesh University of Engineering and Technology(BUET)\
 [http://miisakib.com](http://miisakib.com/)
 ***
-#### How to run the program
+#### How to play the game
 
-* Download the jar file provided in the repository and play!
+* Download the ProjectStart.jar file provided in the repository and play!
 * Someone will have to create a game and then another player will join the game.
 * In case of playing from two different devices, second player will have to input IP address of the first
 player before joining the game. If played in the same device no IP address needed.
