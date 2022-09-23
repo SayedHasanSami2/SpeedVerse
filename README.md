@@ -2,7 +2,7 @@
 
 ### CSE 108 - Object Oriented Programming Language Sessional
 #### Network Car Racing a a multiplayer car racing game developed with Java, JavaFX and Socket Programming.
-#### Multiple players can play this game by connecting their devices in the same network.
+#### Multiple players can race with each other by connecting their devices in the same network.
 ***
 #### Contributor
 Md. Mahbubul Haque
