@@ -12,15 +12,19 @@ Md. Iftekharul Islam Sakib\
 Assistant Professor\
 Department of Computer Science and Engineering (CSE)\
 Bangladesh University of Engineering and Technology(BUET)\
-[(http://miisakib.com/)]
+[http://miisakib.com](http://miisakib.com/)
 ***
 #### How to run the program
 
-##### Codeblocks version 13.12.
+* Download the jar file provided in the repository and play!
+* Someone will have to create a game and then another player will join the game.
+* In case of playing from two different devices, second player will have to input IP address of the first
+player before joining the game. If played in the same device no IP address needed.
+
+<p align="center"> OR </p>
+
 * Clone the repository
-* Follow the pdf in SETUP folder and use the necessary files to setup environment.
-It is better to have the mentioned codeblocks version, otherwise, setup process would not be same as guided.
-* Open DX_BALL project file in codeblocks.
-* Run Untitled2.cpp file
-* Read instructions of how to play.
-* Play and Enjoy!
+* Open the project in Intellij IDEA or running the project from anywhere else is OK. In case of Intellij IDEA, you must enable <b>allow multiple instances from run edit configuration </b>
+* Run FirstWindow.java and create a game.
+* Another player if joined from other device must provide the IP address of the first player before joining the game.
+* Two players will be connected. Race for your life after giving number of laps!
