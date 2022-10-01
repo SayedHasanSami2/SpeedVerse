@@ -16,7 +16,7 @@ Bangladesh University of Engineering and Technology(BUET)\
 ***
 #### How to play the game
 
-* Download ProjectStart.jar file provided in the repository and play!
+* Download Car_Racing.jar file provided in the repository and play!
 * Someone will have to create a game and then another player will join the game.
 * In case of playing from two different devices, second player will have to input IP address of the first
 player before joining the game. If played in the same device no IP address needed.
