@@ -25,6 +25,8 @@ public class AboutUs extends Application {
         stage=primaryStage;
         Parent root = FXMLLoader.load(getClass().getResource("usabout.fxml"));
 
+
+
         Scene scene=new Scene(root);
         stage.setScene(scene);
         stage.setTitle("Logged In As "+user);
