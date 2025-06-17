@@ -1,6 +1,6 @@
 package sample;
 
-import com.sun.org.apache.bcel.internal.generic.Instruction;
+import org.apache.bcel.generic.*;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
