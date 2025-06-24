@@ -4,14 +4,16 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.effect.Glow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Initializer">
    <children>
-      <ImageView fitHeight="761.0" fitWidth="1018.0" layoutX="-6.0">
+      <ImageView fitHeight="761.0" fitWidth="1012.0" layoutX="-6.0">
          <image>
             <Image url="@SpeedVerse_Image.png" />
          </image>
@@ -21,43 +23,69 @@
             <Image url="@background2.png" />
          </image>
       </ImageView>
-      <ToggleButton fx:id="clientButton" layoutY="433.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="272.0" text="JOIN GAME" textFill="#d60d86">
+      <ToggleButton fx:id="clientButton" layoutX="22.0" layoutY="421.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="242.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);" text="JOIN GAME" textFill="WHITE">
          <font>
-            <Font name="Tw Cen MT Condensed Extra Bold" size="46.0" />
+            <Font size="25.0" />
          </font>
+         <effect>
+            <Glow />
+         </effect>
       </ToggleButton>
-      <Button fx:id="playButton" disable="true" layoutX="661.0" layoutY="641.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="350.0" style="-fx-background-color: green;" text="START PLAY" textAlignment="CENTER" textFill="#0cf5c4">
+      <Button fx:id="playButton" disable="true" layoutX="661.0" layoutY="641.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="342.0" style="-fx-background-color: green;" text="START PLAY" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Tw Cen MT Condensed Extra Bold" size="44.0" />
-         </font></Button>
-      <ToggleButton fx:id="serverButton" layoutY="344.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="272.0" text="CREATE GAME" textAlignment="CENTER" textFill="#de1481">
-         <font>
-            <Font name="Tw Cen MT Condensed Extra Bold" size="45.0" />
          </font>
+         <effect>
+            <Glow />
+         </effect></Button>
+      <ToggleButton fx:id="serverButton" layoutX="22.0" layoutY="341.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="242.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);" text="CREATE GAME" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
       </ToggleButton>
-      <TextField fx:id="textfield" disable="true" layoutX="661.0" layoutY="567.0" prefHeight="70.0" prefWidth="350.0" promptText="Server IP address">
+      <TextField fx:id="textfield" disable="true" layoutX="661.0" layoutY="567.0" prefHeight="70.0" prefWidth="341.0" promptText="Server IP address">
          <font>
             <Font size="30.0" />
          </font></TextField>
-      <ToggleButton fx:id="instructions" layoutY="531.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="272.0" text="INSTRUCTIONS" textAlignment="CENTER" textFill="#d90f93">
+      <ToggleButton fx:id="instructions" layoutX="22.0" layoutY="501.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="242.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);" text="INSTRUCTIONS" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font name="Tw Cen MT Condensed Extra Bold" size="39.0" />
+            <Font size="25.0" />
          </font>
+         <effect>
+            <Glow />
+         </effect>
       </ToggleButton>
-      <ToggleButton fx:id="aboutus" layoutY="609.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="272.0" text="ABOUT US" textFill="#d10f74">
+      <ToggleButton fx:id="aboutus" layoutX="22.0" layoutY="581.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="242.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);" text="ABOUT US" textFill="WHITE">
          <font>
-            <Font name="Tw Cen MT Condensed Extra Bold" size="46.0" />
+            <Font size="25.0" />
          </font>
+         <effect>
+            <Glow />
+         </effect>
       </ToggleButton>
-      <ToggleButton fx:id="quit" layoutY="681.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="272.0" text="QUIT" textAlignment="CENTER" textFill="#d1137e">
+      <ToggleButton fx:id="quit" layoutX="22.0" layoutY="661.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="242.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);" text="QUIT" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font name="Tw Cen MT Condensed Extra Bold" size="42.0" />
+            <Font size="25.0" />
          </font>
+         <effect>
+            <Glow />
+         </effect>
       </ToggleButton>
-      <Label fx:id="label" alignment="CENTER" layoutX="410.0" layoutY="199.0" text="Label" textAlignment="CENTER" textFill="#e31717e5">
+      <Label fx:id="label" alignment="CENTER" layoutX="380.0" layoutY="195.0" prefHeight="24.0" prefWidth="75.0" text="Label" textAlignment="CENTER" textFill="#000000e5">
          <font>
-            <Font name="Lucida Handwriting Italic" size="32.0" />
+            <Font size="26.0" />
          </font>
+         <effect>
+            <Glow />
+         </effect>
       </Label>
+      <Text layoutX="228.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player name: " wrappingWidth="151.99998779296868">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
